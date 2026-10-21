@@ -1,0 +1,17 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Dataset images
+dataset/*/
+
+# Generated model
+models/*.keras
+
+# Python and editor files
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
