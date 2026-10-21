@@ -1,0 +1,1 @@
+Add correctly labeled JPG/JPEG/PNG images containing visible potholes here before running python train.py.

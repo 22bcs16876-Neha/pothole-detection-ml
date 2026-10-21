@@ -1,0 +1,8 @@
+Dataset status in this ZIP
+===========================
+no_pothole images: 302
+pothole images bundled: 0
+
+The pothole image dataset is not bundled because the runtime here could not access the external download host.
+Run `python download_dataset.py` from the project folder on a computer with internet access to download public pothole images into dataset/pothole/.
+Then visually review the images and run `python train.py`.
