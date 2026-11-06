@@ -14,7 +14,7 @@ st.set_page_config(
 st.title("🚧 Pothole Detection System")
 st.write("Upload a road image to classify it as pothole or no pothole.")
 
-MODEL_PATH = Path("models/pothole_model.keras")
+MODEL_PATH = Path(__file__).resolve().parent / "models" / "pothole_model.keras"
 IMG_SIZE = (224, 224)
 
 
